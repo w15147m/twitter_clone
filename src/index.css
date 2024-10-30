@@ -1,0 +1,10 @@
+/* output.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.last-box {
+    @apply w-2/3  px-3 m-3 bg-slate-800;
+}
