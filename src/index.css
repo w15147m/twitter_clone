@@ -8,3 +8,52 @@
 .last-box {
     @apply w-2/3  px-3 m-3 bg-slate-900;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+@layer utilities {
+    .scrollbar-thin {
+      scrollbar-width: thin; /* Firefox */
+    }
+  
+    .scrollbar-thumb-rounded {
+      scrollbar-color: black black; /* thumb color and track color */
+    }
+  
+    .scrollbar-thumb-gray {
+      scrollbar-color: black black;
+    }
+  
+    .scrollbar-track {
+      scrollbar-color: black black; /* for custom track color */
+    }
+  
+    /* For webkit browsers like Chrome, Safari */
+    .scrollbar-thumb {
+      scrollbar-width: thin;
+    }
+  
+    .scrollbar-thumb::-webkit-scrollbar {
+      width: 0.1px;
+    }
+  
+    .scrollbar-thumb::-webkit-scrollbar-track {
+      background: black;
+    }
+  
+    .scrollbar-thumb::-webkit-scrollbar-thumb {
+      background-color: black;
+      border-radius: 0.1px;
+    }
+  }
+  
